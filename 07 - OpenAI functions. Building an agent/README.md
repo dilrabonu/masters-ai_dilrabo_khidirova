@@ -25,26 +25,10 @@ This project is an innovative AI-powered database query system that allows users
 - Python 3.8+
 - OpenAI API Key
 
-### Installation Steps
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/animal-database-ai
-   cd animal-database-ai
-   ```
 
-2. **Create Virtual Environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure Environment**
+. **Configure Environment**
    - Create a `.env` file in the project root
    - Add your OpenAI API key:
      ```
@@ -122,15 +106,8 @@ curl -X POST http://localhost:5000/query \
 4. Push to the branch
 5. Open a Pull Request
 
-## 📜 License
 
-Distributed under the MIT License.
-
-## 📞 Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/animal-database-ai](https://github.com/yourusername/animal-database-ai)
+Project Link: (https://www.kaggle.com/datasets/lainguyn123/animal-planet)
 
 ## 🙏 Acknowledgements
 
