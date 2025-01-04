@@ -26,17 +26,26 @@ Function Calls: Incorporates multiple tools for API interactions and internal fu
 
 
 capstone_project/
+
 │
 ├── .env                      # Environment variables (e.g., data file path)
+
 ├── app.py                    # Main Streamlit application
+
 ├── agent.py                  # Agent logic for analysis and visualization
+
 ├── data_preprocessing.py     # Handles data cleaning and preprocessing
+
 ├── data_summarization_tool.py # Provides summary statistics
+
 ├── visualization_tool.py     # Generates visualizations (e.g., bar charts)
+
 ├── heart_attack_youngsters_india.csv # Dataset for analysis
+
 ├── requirements.txt          # List of required Python packages
+
 ├── README.md                 # Documentation for the project
-└── setup.py                  # Package setup file
+
 
 ## Requirements
 - Python 3.8 - 3.12
