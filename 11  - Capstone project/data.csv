@@ -1,4 +1,0 @@
-ShipmentID,DriverName,Origin,Destination,Status
-S001,John Doe,New York,Los Angeles,In Transit
-S002,Jane Smith,Chicago,Houston,Delivered
-S003,Mike Brown,Seattle,San Francisco,Pending
