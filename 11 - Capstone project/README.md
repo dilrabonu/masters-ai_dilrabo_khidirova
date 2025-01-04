@@ -10,6 +10,10 @@ This is a data analysis agent built with Python and Streamlit, designed to provi
 - Matplotlib
 - OpenAI (optional)
 
+  ## Tools
+  1. Summarization Tool
+  2. Visualization Tool
+
 ## Installation
 1. Clone the repository
 2. Create a virtual environment:
