@@ -5,19 +5,26 @@ This capstone project aims to analyze a dataset of young individuals to assess t
 
 The project leverages Streamlit for an interactive user interface and tools for data preprocessing, summarization, and visualization.
 
-**Features
-Functional Requirements**
+**Features**
+
+**Functional Requirements**
 Data Summarization: Provides high-level insights into the dataset, including total rows, columns, and descriptive statistics.
 Visualization: Generates bar charts and line plots to visualize relationships in the dataset.
 Data Preprocessing: Cleans data, handles missing values, and prepares datasets for machine learning.
 Action via API Calls: Demonstrates API integration to handle external functions.
 Business Information in UI: Displays preprocessing results and insights for decision-making.
+
+
 **Non-Functional Requirements**
 Streamlit Interface: A modern and user-friendly web application.
 Logging: Provides detailed logs in the console for debugging and tracking application events.
 Python Version Compatibility: Supports Python versions <= 3.12.
 Function Calls: Incorporates multiple tools for API interactions and internal functionalities.
+
+
 **Project Structure**
+
+
 capstone_project/
 │
 ├── .env                      # Environment variables (e.g., data file path)
