@@ -1,7 +1,10 @@
 Capstone Project Data Analysis Agent
+
+
 Project Overview This capstone project aims to analyze a dataset of young individuals to assess their risk of heart attacks. The project includes data preprocessing, summarization, and visualization functionalities. It is designed to provide insights into the factors contributing to heart attack risks.
 
 The project leverages Streamlit for an interactive user interface and tools for data preprocessing, summarization, and visualization.
+
 
 Features
 
