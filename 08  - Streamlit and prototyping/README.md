@@ -14,10 +14,7 @@ This is a data analysis agent built with Python and Streamlit, designed to provi
 1. Clone the repository
 2. Create a virtual environment:
 
- ![image](https://github.com/user-attachments/assets/86580c40-9c80-487e-917e-66572c1f266c)
-
-![image](https://github.com/user-attachments/assets/0e5adc16-a9a4-4cca-a162-53a1ee52bb14)
-![image](https://github.com/user-attachments/assets/06a8855f-52ce-407b-b725-fb53ee3cc0b4)
-
-![image](https://github.com/user-attachments/assets/35d4f8b6-8fb1-4db1-814b-7429a5af4ca7)
-
+![image](https://github.com/user-attachments/assets/4ab164b1-f7be-4e82-9b87-dcbfe03291c9)
+![image](https://github.com/user-attachments/assets/908f506b-e84b-430c-a19f-37429cd4cc34)
+![image](https://github.com/user-attachments/assets/68e85ae8-d2e1-45a2-a40c-57e366a7d2d9)
+![image](https://github.com/user-attachments/assets/4d8e14c7-4d3c-4d48-b2bc-f88f571ff058)
