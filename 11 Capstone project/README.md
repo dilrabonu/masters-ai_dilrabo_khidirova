@@ -41,11 +41,17 @@ Function Execution: Calls external APIs for advanced functionalities.*
 .
 
 ├── main.py                # Streamlit UI implementation
+
 ├── conversation.py        # Conversation management
+
 ├── requirements.txt       # Required dependencies
+
 ├── heart_attack_data.sqlite # SQLite Database file
+
 ├── heart_attack_youngsters_india.csv # Dataset
+
 ├── .env                   # Environment variables (API keys)
+
 └── README.md              # Documentation
 
 **Usage**
