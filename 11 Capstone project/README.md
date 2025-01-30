@@ -50,7 +50,7 @@ Function Execution: Calls external APIs for advanced functionalities.*
 
 ├── heart_attack_youngsters_india.csv # Dataset
 
-├── .env                   # Environment variables (API keys)
+├── pictures                  # Screenshot
 
 └── README.md              # Documentation
 
