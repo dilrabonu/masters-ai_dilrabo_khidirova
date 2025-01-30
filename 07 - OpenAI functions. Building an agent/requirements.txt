@@ -1,0 +1,9 @@
+streamlit
+pandas
+sqlite3
+python-dotenv
+requests
+openai
+logging
+termcolor
+tenacity

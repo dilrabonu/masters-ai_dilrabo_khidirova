@@ -1,116 +1,65 @@
-# 🐾 Animal Database AI Query Assistant
+# AI Health Data Assistant
 
-## 📝 Project Overview
+## Overview
+This AI agent assists users in querying heart attack risk factors from a structured health dataset. It utilizes OpenAI's GPT API and SQLite for efficient querying, and includes an additional function for sending alerts to a third-party API.
 
-This project is an innovative AI-powered database query system that allows users to ask natural language questions about animals and receive precise, data-driven answers. By leveraging OpenAI's GPT model and SQLite, the application translates human-readable questions into SQL queries, making complex database exploration intuitive and accessible.
-
-## ✨ Key Features
-
-- 🤖 **AI-Powered Query Translation**: Convert natural language questions to SQL queries
-- 🔍 **Flexible Database Exploration**: Query animal information dynamically
-- 💡 **Intelligent Responses**: Retrieve detailed animal data with minimal effort
-- 🛡️ **Robust Error Handling**: Comprehensive error management and input validation
-
-## 🛠 Technologies Used
-
-- **Backend**: Flask
-- **AI Model**: OpenAI GPT-4
-- **Database**: SQLite
-- **Environment Management**: python-dotenv
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-
-- Python 3.8+
-- OpenAI API Key
-
-
-
-
-. **Configure Environment**
-   - Create a `.env` file in the project root
-   - Add your OpenAI API key:
-     ```
-     OPENAI_API_KEY=your_openai_api_key_here
-     ```
-
-### Running the Application
-
-```bash
-python main.py
+## Project Structure
+```
+/your_project_directory
+│── db/
+│   ├── heart_attack_data.sqlite
+│── .env
+│── conversation.py
+│── main.py
+│── requirements.txt
+│── README.md
 ```
 
-The application will start on `http://localhost:5000`
+## Installation
+1. **Clone the repository**
+   ```bash
+   git clone <repo_url>
+   cd your_project_directory
+   ```
 
-## 🔬 API Endpoints
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   venv\Scripts\activate  # On Windows
+   ```
 
-### Root Endpoint
-- `GET /`: Returns a welcome message
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Query Endpoint
-- `POST /query`: Submit natural language questions about animals
+4. **Set up environment variables**
+   - Create a `.env` file in the root directory and add:
+     ```bash
+     OPENAI_API_KEY=your_openai_api_key
+     ```
 
-#### Example Query
-```bash
-curl -X POST http://localhost:5000/query \
-     -H "Content-Type: application/json" \
-     -d '{"question": "List animals taller than 2 meters with their top speeds"}'
-```
+## Running the Application
+1. **Run the Streamlit app**
+   ```bash
+   streamlit run main.py
+   ```
+2. **Interact with the AI agent**
+   - Enter queries about heart attack risk factors.
+   - The AI will generate SQL queries and fetch relevant data.
+   - Alerts can be triggered based on detected health risks.
 
-## 📊 Database Structure
+## Features
+- **AI-driven database queries**: Users can ask health-related questions, and the AI will retrieve relevant data.
+- **Function calling**: Calls a third-party API for sending health alerts.
+- **Interactive UI**: Built with Streamlit for ease of use.
 
-**Table**: `animals_info`
-**Columns**: 
-- Name
-- Kingdom
-- Phylum
-- Class
-- Order
-- Family
-- Genus
-- Species
-- Top Speed
-- Weight
-- Height
-- Length
-- Distribution
-- Diet
-- Habitat
+## Future Enhancements
+- Improve natural language processing for better query handling.
+- Expand database with additional health metrics.
+- Integrate visualization tools for insights.
 
-## 🧠 How It Works
+## License
+This project is licensed under the MIT License.
 
-1. User submits a natural language question
-2. OpenAI GPT translates the question into a SQL query
-3. Query is executed against the SQLite database
-4. Results are returned in JSON format
-
-## 🛡️ Error Handling
-
-- Missing API key triggers a `ValueError`
-- Invalid queries return descriptive error responses
-- Database connection errors are gracefully managed
-
-## 🔮 Potential Improvements
-
-- Implement query caching
-- Add more sophisticated NLP preprocessing
-- Create a web interface
-- Expand database with more animal information
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-
-Project Link: (https://www.kaggle.com/datasets/lainguyn123/animal-planet)
-
-## 🙏 Acknowledgements
-
-- OpenAI for GPT technology
-- Flask Web Framework
-- SQLite Database
