@@ -71,6 +71,22 @@ The agent can execute the following function calls:
 ask_database: Queries health data based on structured SQL queries.
 
 analyze_dataset: Computes insights such as high-risk percentages and distributions.
+![image](https://github.com/user-attachments/assets/372d230f-aadc-4cab-901e-ce1ae859fdc9)
+![image](https://github.com/user-attachments/assets/b0b04ebc-3ca0-44a8-9c9c-ebf2d887a335)
+![image](https://github.com/user-attachments/assets/249ef264-c10a-488f-a306-525fa9e3b3a9)
+![image](https://github.com/user-attachments/assets/b6d89d60-d232-4398-a5aa-910899f8dddd)
+![image](https://github.com/user-attachments/assets/4e490b7f-4999-444d-afbf-bfe1325d3dee)
+![image](https://github.com/user-attachments/assets/0c3e9bef-778c-44e0-ba05-ad2432dd29b4)
+![image](https://github.com/user-attachments/assets/9017ea3a-3927-4606-9f97-1a35a4800782)
+![image](https://github.com/user-attachments/assets/bf703f43-02a8-44e6-9b77-91837e2d1f61)
+
+
+
+
+
+
+
+
 
 **Website:**
 https://www.kaggle.com/datasets/ankushpanday1/heart-attack-in-youth-of-india
