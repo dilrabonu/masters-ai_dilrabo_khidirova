@@ -76,4 +76,4 @@ Python Version: 3.10.6 (required for compatibility)
 - **Hardware:** NVIDIA GeForce RTX 3050 6GB Laptop GPU
 
 
-
+http://127.0.0.1:7860/
