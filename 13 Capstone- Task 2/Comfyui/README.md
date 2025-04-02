@@ -7,6 +7,8 @@ original photo:
 link of model:
 https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/tree/main
 
+![image](https://github.com/user-attachments/assets/7634248c-b65a-4b3a-8aad-82eca5ce16e8)
+
 # Art Capstone - AI-Generated Media Covers
 
 ## 1. CD Album – Rammstein: MUTTER
