@@ -32,3 +32,6 @@ https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/tree/main
 - **Extensions/LoRA**: None  
 - **Screenshot of Pipeline**:  
 ![workflow](comfyui_pipeline_cd.png)
+
+model:
+https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/resolve/main/flux1-schnell-fp8.safetensors
