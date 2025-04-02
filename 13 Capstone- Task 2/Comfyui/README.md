@@ -35,3 +35,6 @@ https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/tree/main
 
 model:
 https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/resolve/main/flux1-schnell-fp8.safetensors
+
+localhost:
+http://127.0.0.1:8188
