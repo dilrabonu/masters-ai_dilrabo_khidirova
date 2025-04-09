@@ -64,3 +64,6 @@ An intelligent assistant built as part of a capstone project, utilizing **LangCh
 git clone https://github.com/yourusername/ai-support-assistants.git
 cd ai-support-assistants
 
+Install Dependencies
+pip install -r requirements.txt
+
