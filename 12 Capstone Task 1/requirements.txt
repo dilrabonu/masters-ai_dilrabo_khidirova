@@ -1,0 +1,32 @@
+# Core dependencies
+langchain
+
+# PDF Processing
+PyPDF2
+pypdf  # Alternative PDF library
+
+# Machine Learning & Transformers
+transformers  # If using Hugging Face models
+sentence-transformers  # For alternative embedding models
+
+# Vector Databases & FAISS
+chromadb
+
+# --- Core LangChain Modular Packages ---
+langchain-core
+langchain-openai
+langchain-community
+langchain-text-splitters
+
+# --- OpenAI client ---
+openai
+
+# --- Streamlit & dotenv ---
+streamlit
+python-dotenv
+
+# --- Vector search ---
+faiss-cpu
+
+# --- Others ---
+requests

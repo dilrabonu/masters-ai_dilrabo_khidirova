@@ -1,0 +1,8 @@
+# Ignore FAISS index to avoid pushing large binary files
+faiss_index/
+
+# Ignore large PDFs if needed (optional)
+# data/*.pdf
+
+# But keep the folder structure (optional)
+!data/.gitkeep
