@@ -57,3 +57,10 @@ An intelligent assistant built as part of a capstone project, utilizing **LangCh
 ├── data/                   # Source documents (manuals, FAQs)
 ├── faiss_index/            # FAISS vector store
 
+
+🚀 Setup Instructions
+1. Clone the Repo
+
+git clone https://github.com/yourusername/ai-support-assistants.git
+cd ai-support-assistants
+
