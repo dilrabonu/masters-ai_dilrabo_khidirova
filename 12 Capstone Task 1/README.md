@@ -67,3 +67,7 @@ cd ai-support-assistants
 Install Dependencies
 pip install -r requirements.txt
 
+Add Your API Key
+
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
