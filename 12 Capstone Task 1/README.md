@@ -58,6 +58,10 @@ An intelligent assistant built as part of a capstone project, utilizing **LangCh
 ├── faiss_index/            # FAISS vector store
 
 
+
+
+
+
 🚀 Setup Instructions
 1. Clone the Repo
 
@@ -76,3 +80,10 @@ Run app locally
 
 streamlit run app.py
 
+
+📬 Contact
+For collaboration, questions, or feedback:
+
+Dilrabo Khidirova
+📧 dilrabo_khidirova@epam.com
+🔗 (https://www.linkedin.com/in/dilrabo-khidirova-3144b8244/)
