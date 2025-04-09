@@ -71,3 +71,8 @@ Add Your API Key
 
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+
+Run app locally
+
+streamlit run app.py
+
