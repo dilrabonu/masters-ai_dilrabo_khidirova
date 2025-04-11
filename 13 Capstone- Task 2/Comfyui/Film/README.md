@@ -1,20 +1,5 @@
 
 
-
-![image](https://github.com/user-attachments/assets/53ca18b8-45e4-48f7-928a-d18babcbe870)
-
-![image](https://github.com/user-attachments/assets/aab59c8f-f064-4cc6-a651-5e790f73efb8)
-
-
-
-
-Lora 
-![image](https://github.com/user-attachments/assets/eaf0b7c4-a2b4-4ed9-8c18-66c54febb03c)
-
-
-
-![image](https://github.com/user-attachments/assets/eaed1f91-74dc-474f-9213-2de6935d5d00)
-
 # 🎬 Art Capstone Project – Blade Runner 2049 (AI Reimagined Cover)
 
 ## 🟡 Original Work
@@ -23,19 +8,28 @@ Lora
 **Director**: Denis Villeneuve  
 **Year**: 2017  
 
-![Original Cover](film-org.jpg)
+![image](https://github.com/user-attachments/assets/14474daa-aae8-417f-9b79-38df01bf106f)
+
 
 ---
 
 ## 🔵 AI-Generated Reinterpretation
 
 ### Version 1 – No LoRA (Pure SD 1.5)
-![No LoRA Result](bladerunner2049-no-lora.png)
+![image](https://github.com/user-attachments/assets/53ca18b8-45e4-48f7-928a-d18babcbe870)
+
+![image](https://github.com/user-attachments/assets/aab59c8f-f064-4cc6-a651-5e790f73efb8)
+
+
 
 A cyberpunk-style reinterpretation featuring a futuristic city, glowing lights, and a team of silhouettes walking into a dystopian world — inspired by *Blade Runner 2049*.
 
 ### Version 2 – With LoRA (Enhanced Detail & Style)
-![LoRA Result](bladerunner2049-lora-version.png)
+
+![image](https://github.com/user-attachments/assets/eaf0b7c4-a2b4-4ed9-8c18-66c54febb03c)
+
+
+![image](https://github.com/user-attachments/assets/eaed1f91-74dc-474f-9213-2de6935d5d00)
 
 This variation uses the Album Cover Art Style LoRA to enhance structure, richness, cinematic tones, and neon-lit atmosphere while preserving the sci-fi narrative.
 
@@ -89,10 +83,10 @@ text, watermark, logo, blurry, distorted, bad anatomy, lowres, cropped
 ## 🖼️ Workflow Snapshots
 
 ### No-LoRA Pipeline Screenshot
-![Workflow – No LoRA](bladerunner2049-no-lora-workflow.png)
+![image](https://github.com/user-attachments/assets/53ca18b8-45e4-48f7-928a-d18babcbe870)
 
 ### LoRA-Enhanced Pipeline Screenshot
-![Workflow – With LoRA](bladerunner2049-lora-workflow.png)
+![image](https://github.com/user-attachments/assets/eaf0b7c4-a2b4-4ed9-8c18-66c54febb03c)
 
 ---
 
@@ -116,6 +110,6 @@ text, watermark, logo, blurry, distorted, bad anatomy, lowres, cropped
 
 **Author**: Dilrabo Khidirova  
 **Project**: Art Capstone – Generative AI Media Reimagination  
-**Instructor**: [Your Instructor’s Name or Course Title]
+**Instructor**: Vitali Shulha - Generative AI
 
 
