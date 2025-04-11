@@ -1,5 +1,10 @@
-# 🎵 Art Capstone – AI Reinterpretation of Michael Jackson’s *Dangerous*
+# 🎵 Art Capstone Project – Michael Jackson: *Dangerous* (AI Reimagined Cover)
 
+## 🟡 Original Work
+**Media Type**: Compact Disc (Audio Album)  
+**Title**: *Dangerous*  
+**Artist**: Michael Jackson  
+**Release Year**: 1991  
 ## 🔸 Original Cover
 ![image](https://github.com/user-attachments/assets/50c07d73-d0a9-45cc-8971-7f3df336f21e)
 
@@ -70,24 +75,31 @@ A surreal, symbolic reinterpretation of the iconic "Dangerous" album cover. This
 ---
 
 ## 🖼️ Screenshot of Generation Pipeline
+![image](https://github.com/user-attachments/assets/52f8ba76-1a59-48d4-97e8-e60c68059fba)
 
-![Uploading image.png…]()
-
-
----
-
-## 🛠️ Resources Used
-
-- **Image Generation Model**: [Stable Diffusion v1.5 (pruned-emaonly-fp16)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- **Generation Platform**: (http://127.0.0.1:8188/)
-- **Running Environment**: Self-hosted locally on Windows, GPU: RTX 3050 6GB, PyTorch 2.1.0
-- **Prompt Engineering**: Custom written for surreal reinterpretation of MJ’s "Dangerous" cover.
 
 ---
 
-## ✅ Notes
+## 📚 Resources Used
 
-- No public image generation APIs were used.
-- All processing was done locally using only self-hosted tools and open-source models.
+- [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+- [ComfyUI GitHub](https://github.com/comfyanonymous/ComfyUI)
+- [Album Cover Style LoRA on Civitai](https://civitai.com/models/106303)
 
+---
+
+## ✅ Capstone Compliance
+
+- [x] Media Type selected: Audio CD Album  
+- [x] Image generated using **self-hosted** ComfyUI only  
+- [x] Prompt engineered + enhanced using a relevant LoRA  
+- [x] Model setup and generation parameters documented  
+- [x] Screenshots of pipeline and artwork included  
+- [x] Markdown file explains all settings and resources  
+
+---
+
+**Author**: Dilrabo Khidirova  
+**Project**: Art Capstone – Generative AI Media Reimagination  
+**Instructor**:Vitali Shulha - Generative AI
 
