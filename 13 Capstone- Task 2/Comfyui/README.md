@@ -1,4 +1,8 @@
 
+model :
+ https://huggingface.co/runwayml/stable-diffusion-v1-5
+
+
 original photo:
 
 ![image](https://github.com/user-attachments/assets/d72f2077-ea3a-44c5-8190-9d52515322a8)
