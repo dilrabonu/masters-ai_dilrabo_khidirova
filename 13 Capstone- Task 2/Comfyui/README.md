@@ -1,44 +1,85 @@
+# 🎨 Generative AI Art Capstone – Reimagining Iconic Media Covers
 
-model :
- https://huggingface.co/runwayml/stable-diffusion-v1-5
+## 👩‍🎓 Author: Dilrabo Khidirova  
+**Program**: Generative AI Capstone  
+**Specialization**: Data & AI, Visual Media Track  
+**Tooling**: Self-hosted ComfyUI + Stable Diffusion + LoRA
 
+---
 
-original photo:
+## 🧠 Objective
 
-![image](https://github.com/user-attachments/assets/d72f2077-ea3a-44c5-8190-9d52515322a8)
+The goal of this capstone project is to explore creative reinterpretation of iconic media artwork (album, film, book) using **Generative AI**, while maintaining originality, stylistic intent, and self-hosted ethical control. This work emphasizes **prompt engineering**, **self-hosted image generation**, and **narrative styling** through image composition.
 
+---
 
-link of model:
-https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/tree/main
+## 🧩 Project Overview
 
-![image](https://github.com/user-attachments/assets/7634248c-b65a-4b3a-8aad-82eca5ce16e8)
+| Media Type   | Title                    | Style Used            | LoRA Used         |
+|--------------|--------------------------|------------------------|-------------------|
+| 🎵 Album     | *Dangerous* – M. Jackson | Baroque Fantasy Cover | ✅ Yes            |
+| 🎬 Film      | *Blade Runner 2049*      | Cyberpunk Poster      | ✅ Yes            |
+| 📚 Book      | *The Little Prince*      | Watercolor Storybook  | ✅ Yes            |
 
-# Art Capstone - AI-Generated Media Covers
+Each piece was first created **without LoRA**, then enhanced using a **style-specific LoRA model** to enrich the result with more professional visual storytelling and texture.
 
-## 1. CD Album – Rammstein: MUTTER
+---
 
-**Original Cover**  
-![original](original_mutter.png)
+## ⚙️ Technical Approach
 
-**AI-Generated Cover**  
-![ai-generated](ai_mutter.png)
+All images were generated using:
 
-### Workflow
-- **Model**: FLUX.1-schnell-Quantized  
-- **Link**: https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized  
-- **Tool**: ComfyUI (self-hosted, local)  
-- **Hardware**: NVIDIA RTX 3060 12GB (or your GPU)  
-- **Steps**: 35  
-- **CFG**: 8  
-- **Sampler**: DPM++ 2M  
-- **Prompt**: *"A surreal album cover of a faceless woman holding a baby, dark oil painting, high detail, minimal text, dramatic shadows..."*  
-- **Negative Prompt**: *"text, watermark, logo, disfigured, low quality"*  
-- **Extensions/LoRA**: None  
-- **Screenshot of Pipeline**:  
-![workflow](comfyui_pipeline_cd.png)
+- **Model**: `v1-5-pruned-emaonly-fp16.safetensors`
+- **Platform**: Self-hosted ComfyUI
+- **Prompts**: Custom-engineered for style, symbolism, and theme
+- **LoRA**: Downloaded and integrated via Civitai; no cloud APIs used
+- **Resolution**: 512x512 or 512x768 depending on layout
+- **Sampler**: Euler (or Euler A)
+- **CFG Scale**: 8.0
+- **Steps**: 20–25
 
-model:
-https://huggingface.co/aifoundry-org/FLUX.1-schnell-Quantized/resolve/main/flux1-schnell-fp8.safetensors
+All work was done **offline using a local GPU** (NVIDIA RTX 3050), ensuring data privacy, reproducibility, and full control over generation pipelines.
 
-localhost:
-http://127.0.0.1:8188
+---
+
+## 🧠 Skills Demonstrated
+
+- Prompt Design & Visual Language Control  
+- Style Transfer using LoRA  
+- Symbolic Visual Storytelling  
+- Technical Workflow in ComfyUI  
+- Self-hosted AI Implementation  
+- Creative Direction & Aesthetic Framing
+
+---
+
+## ✅ Capstone Requirements Checklist
+
+- [x] Three original works selected (album, film, book)  
+- [x] AI-generated reinterpretations (at least one LoRA-enhanced per type)  
+- [x] All content generated using self-hosted tools  
+- [x] No API or third-party hosted generation platforms used  
+- [x] Markdown documentation provided for each cover  
+- [x] Screenshots of ComfyUI workflow saved and explained  
+- [x] Clear creative direction and ethical AI usage  
+
+---
+
+## 📚 Deliverables
+
+- `mj-dangerous.md` – Audio Album (LoRA)  
+- `bladerunner2049.md` – Film Cover (LoRA)  
+- `little-prince.md` – Book Cover (LoRA)  
+- Associated images and pipeline screenshots  
+- This general `README.md` file  
+
+---
+
+## 🙌 Reflection
+
+This project allowed me to combine technical AI knowledge with artistic expression. Working fully self-hosted helped me understand how **fine-tuned visual results can be controlled**, enhanced, and aligned with storytelling goals. Each reinterpretation paid homage to the original while offering a **fresh perspective through generative imagination**.
+
+---
+
+## 🖋️ Created with vision, creativity, and care  
+**– Dilrabo Khidirova**
