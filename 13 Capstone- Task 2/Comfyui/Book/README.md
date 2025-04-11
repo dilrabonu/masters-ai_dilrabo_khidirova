@@ -66,7 +66,7 @@ text, watermark, blurry, logo, distorted, extra limbs, cropped
 |----------------|----------------------------------------------------|
 | LoRA Name      | `storybook-illustration-style.safetensors`         |
 | Source         | [Civitai – Watercolor Storybook LoRA](https://civitai.com/) |
-| Strength Model | 0.75                                               |
+| Strength Model | 0.7                                               |
 | Strength Clip  | 0.7                                                |
 
 ---
