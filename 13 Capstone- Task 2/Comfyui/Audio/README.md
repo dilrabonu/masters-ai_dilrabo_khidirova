@@ -9,13 +9,17 @@
 ## 🔸 AI-Generated Cover Variation
 ![image](https://github.com/user-attachments/assets/52f8ba76-1a59-48d4-97e8-e60c68059fba)
 
-![image](https://github.com/user-attachments/assets/9d3dff97-047c-43c5-8dae-8921e58706fc)
+![image](https://github.com/user-attachments/assets/c059b8f1-3092-46c2-bbf5-9b13d10c85b5)
+
 
 
 ## 🔸 AI-Generated Cover Variation (LoRA Enhanced)
 ![image](https://github.com/user-attachments/assets/d2a16128-ab3b-4e54-ac88-d20ee577c320)
 
 ![image](https://github.com/user-attachments/assets/6fc9937b-7c2d-4441-ba10-5b2cc84967f2)
+
+
+![image](https://github.com/user-attachments/assets/9d3dff97-047c-43c5-8dae-8921e58706fc)
 
 alternative:
 ![image](https://github.com/user-attachments/assets/48f5e758-a302-4c46-82c8-83ef209514bf)
