@@ -81,9 +81,6 @@ Run app locally
 streamlit run app.py
 
 
-📬 Contact
-For collaboration, questions, or feedback:
-
 Dilrabo Khidirova
 📧 dilrabo_khidirova@epam.com
 🔗 (https://www.linkedin.com/in/dilrabo-khidirova-3144b8244/)
